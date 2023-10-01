@@ -1,5 +1,5 @@
 A = "Twinkle, twinkle, little star,"
-B = "	How I wonder what you are! "
+B = "\tHow I wonder what you are! "
 C = "		Up above the world so high, "
 D = "		Like a diamond in the sky. "
 E = "Twinkle, twinkle, little star, "
