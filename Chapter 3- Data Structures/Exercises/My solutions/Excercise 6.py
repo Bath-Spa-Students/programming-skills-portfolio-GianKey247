@@ -1,5 +1,10 @@
+#List out the names, you would like to invite to a dinner party and print out a personalised message for each element
+#Replace one element in the guest list and print out the updated guest list 
+#Remove elements in the guest list down to 2 elements
+#Print out the updated guest list then remove all elements in the guest list, Print out the empty guest list
+
 Names = ["Rick astley", "Takehito Koyasu", "Mark hamil", "Mi", "Yu"]
-message = '*insert dinner invitation message here*'
+message = 'is invited to your dinner party'
 
 #Original guest list
 for name in Names:
@@ -17,7 +22,7 @@ for name in Names:
     print(name.title() , message)
 print()
 
-print("Due to me being a massive moron, i didnt know that i had no table for the party and so, i must remove people from the guest list, down to 2 people")
+print("Dining Table is not going to arrive in time and so, i must remove people from the guest list, down to 2 people")
 print()
 Removed_Name = Names.pop()
 print(f'{Removed_Name} *insert cancelation to dinner party message here*')
@@ -27,7 +32,6 @@ print(f'{Removed_Name} *insert cancelation to dinner party message here*')
 
 Removed_Name = Names.pop()
 print(f'{Removed_Name} *insert cancelation to dinner party message here*')
-
 print("\nThe 2 people that are coming to the dinner party is:")
 
 #Updated guest list
