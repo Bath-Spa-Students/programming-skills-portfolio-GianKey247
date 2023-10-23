@@ -25,13 +25,13 @@ print()
 print("Dining Table is not going to arrive in time and so, i must remove people from the guest list, down to 2 people")
 print()
 Removed_Name = Names.pop()
-print(f'{Removed_Name} *insert cancelation to dinner party message here*')
+print(f'{Removed_Name} is removed from the dinner party')
 
 Removed_Name = Names.pop()
-print(f'{Removed_Name} *insert cancelation to dinner party message here*')
+print(f'{Removed_Name} is removed from the dinner party')
 
 Removed_Name = Names.pop()
-print(f'{Removed_Name} *insert cancelation to dinner party message here*')
+print(f'{Removed_Name} is removed from the dinner party')
 print("\nThe 2 people that are coming to the dinner party is:")
 
 #Updated guest list
