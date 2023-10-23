@@ -1,3 +1,6 @@
+#Using operators such as +-*/
+#Calculate the Number of USB baught and Change
+
 wallet = 50
 USB = 6
 Number_of_USB = int(wallet/USB)
