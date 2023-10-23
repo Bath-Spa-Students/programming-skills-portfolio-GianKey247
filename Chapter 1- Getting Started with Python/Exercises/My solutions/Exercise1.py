@@ -1,3 +1,5 @@
+#Use print() to print out the formated message which is in the Exercise
+
 A = "Twinkle, twinkle, little star,"
 B = "\tHow I wonder what you are! "
 C = "\t\tUp above the world so high, "
