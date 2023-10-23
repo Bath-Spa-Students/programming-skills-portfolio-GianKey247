@@ -1,3 +1,6 @@
+#Implement the names inside the list
+#To print out a personalised message for each element
+
 #List of names
 Names = ["migz","ola","nathan","laiba","aya"]
 
