@@ -1,3 +1,6 @@
+#List out the transportation you would like to use
+#Print out a personalised message for each element
+
 #List of transportation
 Names = ["Golf","Mclaren F1","Supra","Skyline","Ford GT"]
 
