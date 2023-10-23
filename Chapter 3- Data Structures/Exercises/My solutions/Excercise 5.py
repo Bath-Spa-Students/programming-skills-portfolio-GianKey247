@@ -1,5 +1,10 @@
+#List out the names, you would like to invite to a dinner party
+#Print out a personalised message for each element
+#Replace one element in the guest list and print out the updated guest list
+
+#list of names
 Names = ["rick astley", "Takehito Koyasu", "mark hamil"]
-message = '*insert dinner invitation message here*'
+message = 'is invited to your dinner party'
 
 #Original guest list
 for name in Names:
