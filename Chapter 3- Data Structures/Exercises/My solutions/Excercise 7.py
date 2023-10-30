@@ -17,9 +17,12 @@ print(f"Original list of locations: {Locations}")
 #Reverses order of elements inside the list
 Locations.reverse()
 print(Locations)
+#Using Reverse to undo the Reverse
 Locations.reverse()
 print(Locations)
+#Sorts the list, alphabetically
 Locations.sort()
 print(Locations)
+#Sorts the list, alphabetically and in reverse
 Locations.sort(reverse= True)
 print(Locations)
