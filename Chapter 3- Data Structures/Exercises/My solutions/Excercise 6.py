@@ -2,7 +2,6 @@
 #Replace one element in the guest list and print out the updated guest list 
 #Remove elements in the guest list down to 2 elements
 #Print out the updated guest list then remove all elements in the guest list, Print out the empty guest list
-
 Names = ["Rick astley", "Takehito Koyasu", "Mark hamil", "Mi", "Yu"]
 message = 'is invited to your dinner party'
 
@@ -21,9 +20,11 @@ print()
 for name in Names:
     print(name.title() , message)
 print()
-
+#Message on why is the guest list reduced to 2
 print("Dining Table is not going to arrive in time and so, i must remove people from the guest list, down to 2 people")
 print()
+
+#Removing names from list and messaging them
 Removed_Name = Names.pop()
 print(f'{Removed_Name} is removed from the dinner party')
 
@@ -39,9 +40,8 @@ for name in Names:
     print(name.title() , message)
 print()
 
+#remove all names in list
 del(Names[0])
 del(Names[0])
-
 print("The list is now empty")
-
 print(Names)
